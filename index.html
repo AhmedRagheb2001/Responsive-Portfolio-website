@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>My Portfolio</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="theme-toggle">🌙</button>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a front-end developer passionate about building modern websites.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Responsive Portfolio Website</h3>
+      <p>A personal website to showcase my work and skills, fully responsive with dark/light mode support.</p>
+    </div>
+    <div class="project">
+      <h3>Task Manager App</h3>
+      <p>A to-do list application with local storage, task filters, and drag-and-drop support.</p>
+    </div>
+    <div class="project">
+      <h3>Weather Dashboard</h3>
+      <p>A weather app that fetches data from OpenWeatherMap API and shows current & forecasted weather.</p>
+    </div>
+    <div class="project">
+      <h3>Recipe Finder App</h3>
+      <p>Search and view recipes from an API, save favorites, and view full instructions in a modal.</p>
+    </div>
+    <div class="project">
+      <h3>Mini E-commerce Product Page</h3>
+      <p>A product browsing interface with add-to-cart functionality and dynamic pricing.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 My Portfolio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
